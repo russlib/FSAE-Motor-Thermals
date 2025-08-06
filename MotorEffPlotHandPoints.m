@@ -31,7 +31,7 @@ rpmGrid_scaled = rpmGrid / max(rpm);
 torqueGrid_scaled = torqueGrid / max(torque) * scaleFactor;
 
 % Best imo
-fitTypes = {'poly22'};
+fitTypes = {'poly33'};
 % % Options
 % fitTypes = {'poly11', 'poly22', 'poly33', 'poly35', 'lowess', 'smoothingspline'};
 
