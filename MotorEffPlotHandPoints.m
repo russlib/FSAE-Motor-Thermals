@@ -1,3 +1,6 @@
+%csv to nice plot script
+%Russell B 
+
 % Load data from CSV
 filename = 'C:\Matlab\Motor Eff\Motor Heat Gen\Emrax Efficency\Motor Eff PNG to csv.csv';
 tbl = readtable(filename);
